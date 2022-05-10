@@ -8,9 +8,11 @@
   <form action="???">
     <h1>Coding Form!</h1>
     <div>
-      <label for="email">Email</label>
+      Email
     </div>
-    <input type="text" id="email">
+    <label for="email">
+      <input type="text" id="email" name="email">
+    </label>
     <div>
       <label for="option">Why is coding cool?</label>
     </div>
@@ -20,15 +22,16 @@
       <option value="Because it's fun">Because it's fun</option>
       <option value="Because it's powerful">Because it's powerful</option>
     </select>
-    <p><label for="favLanguage">Favorite Language (choose one)</label></p>
-
-    <input type="radio" name="language" id="favLanguage" value="HTML">HTML
-    <input type="radio" name="language" value="CSS">CSS
-    <input type="radio" name="language" value="Javascript">Javascript
-
-    <p><label for="moreInfo">Would you like to sign up for more information?</label></p>
-    <input type="checkbox" id="moreInfo" name="yes">Sign me up!
-
+    <p>Favorite Language (choose one)</p>
+    <label for="favLanguage">
+      <input type="radio" name="language" id="favLanguage" value="HTML">HTML
+      <input type="radio" name="language" value="CSS">CSS
+      <input type="radio" name="language" value="Javascript">Javascript
+    </label>
+    <p>Would you like to sign up for more information?</p>
+    <label for="moreInfo">
+      <input type="checkbox" id="moreInfo" name="yes">Sign me up!
+    </label>
     <div>
       <label for="comments">Comments</label>
     </div>
