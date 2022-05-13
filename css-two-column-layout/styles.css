@@ -60,7 +60,7 @@ button {
   display: flex;
   justify-content: center;
   text-align: center;
-  width: 60%;
+  width: 100%;
 }
 
 button {
@@ -70,4 +70,9 @@ button {
   color: orangered;
   background-color: white;
   border: solid 2px orangered;
+}
+
+.edit,
+h1 {
+  width: 60%;
 }
