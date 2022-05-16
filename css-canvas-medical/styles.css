@@ -1,0 +1,233 @@
+* {
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+p {
+  line-height: 2em;
+  font-size: 24px;
+}
+
+p,
+a,
+span,
+h4 {
+  font-family: sans-serif;
+}
+
+h3 {
+  margin-top: 50px;
+  margin-bottom: 0;
+  font-weight: 500;
+  font-size: 30px;
+}
+
+.grey-text {
+  color: rgb(100 100 100);
+}
+
+h2,
+h3 {
+  font-family: "Tiempos Headline", sans-serif;
+}
+
+h2 {
+  font-weight: lighter;
+}
+
+button {
+  background-color: #0c4366;
+  border: solid 1px #0c4366;
+  border-radius: 3px;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+#container {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+}
+
+.row {
+  width: 80%;
+  display: flex;
+  margin: 0 auto;
+}
+
+.fourty-percent-column {
+  display: flex;
+  width: 40%;
+}
+
+.sixty-percent-column {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 60%;
+}
+
+.column-full {
+  display: flex;
+  width: 100%;
+}
+
+.hero-pic {
+  width: 100%;
+  height: fit-content;
+  position: relative;
+  margin: 50px 0;
+}
+
+.pic-content-position {
+  width: 35%;
+  height: auto;
+  display: flex;
+  margin: 0 auto;
+  flex-direction: column;
+  justify-content: space-between;
+  position: absolute;
+  left: 15%;
+  top: 25%;
+}
+
+.addresses {
+  text-align: center;
+  line-height: 2.5em;
+}
+
+.column-half {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  margin: 50px 0 150px;
+}
+
+.address-heading {
+  width: 40%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.column-one-third {
+  display: flex;
+  margin: 40px 0;
+  width: calc(100% / 3);
+}
+
+.space-between {
+  justify-content: space-between;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+.justify-start {
+  justify-content: flex-start;
+}
+
+.justify-end {
+  justify-content: flex-end;
+}
+
+.align-flex-end {
+  align-items: flex-end;
+}
+
+.align-center {
+  align-items: center;
+}
+
+.align-start {
+  align-items: flex-start;
+}
+
+.column-quarter {
+  display: flex;
+  width: 25%;
+  margin: 50px 0;
+}
+
+.flex-column {
+  flex-direction: column;
+}
+
+.column-one-tenth {
+  display: flex;
+  height: 100%;
+  width: 10%;
+  margin: 40px 0;
+}
+
+.light-grey {
+  background-color: rgb(248 248 248);
+}
+
+.dark-grey {
+  background-color: rgb(83 83 83);
+}
+
+.border-bottom {
+  border-bottom: solid 2px rgb(218 218 218);
+}
+
+.white-text {
+  color: white;
+}
+
+.line-height-one-half {
+  line-height: 1.5em;
+}
+
+.line-height-two {
+  line-height: 2em;
+}
+
+.get-started-button {
+  width: 200px;
+  height: 50px;
+  font-size: 16px;
+}
+
+.contact-us-button {
+  width: 140px;
+  height: 40px;
+}
+
+.flex-direction-column {
+  display: flex;
+  flex-direction: column;
+}
+
+.fontsize14 {
+  font-size: 16px;
+}
+
+.fontsize30 {
+  font-size: 30px;
+}
+
+.fontsize18 {
+  font-size: 18px;
+}
+
+.fontsize50 {
+  font-size: 50px;
+}
+
+h4 {
+  font-weight: 100;
+}
+
+.logo {
+  font-family: "binary ITC std", sans-serif;
+  font-weight: 500;
+  font-size: 50px;
+}
+
+.logo-color {
+  color: #0c4366;
+}
