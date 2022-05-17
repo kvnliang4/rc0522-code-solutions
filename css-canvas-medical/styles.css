@@ -5,7 +5,7 @@
 
 p {
   line-height: 2em;
-  font-size: 24px;
+  font-size: 20px;
 }
 
 p,
@@ -55,11 +55,14 @@ button:hover {
   width: 80%;
   display: flex;
   margin: 0 auto;
+  padding-left: 5%;
+  padding-right: 5%;
 }
 
 .fourty-percent-column {
   display: flex;
   width: 40%;
+  margin-bottom: -25px;
 }
 
 .sixty-percent-column {
@@ -67,11 +70,16 @@ button:hover {
   justify-content: space-between;
   align-items: center;
   width: 60%;
+  font-size: 16px;
+  padding-left: 15%;
+  margin-bottom: -25px;
 }
 
 .column-full {
   display: flex;
   width: 100%;
+  margin-top: 30px;
+  margin-bottom: 30px;
 }
 
 .hero-pic {
@@ -79,17 +87,18 @@ button:hover {
   height: fit-content;
   position: relative;
   margin: 50px 0;
+  filter: contrast(65%);
 }
 
 .pic-content-position {
-  width: 35%;
+  width: 38%;
   height: auto;
   display: flex;
-  margin: 0 auto;
+  margin: 30px auto 0;
   flex-direction: column;
   justify-content: space-between;
   position: absolute;
-  left: 15%;
+  left: 18%;
   top: 25%;
 }
 
@@ -107,7 +116,7 @@ button:hover {
 
 .address-heading {
   width: 40%;
-  margin: 0 auto;
+  margin: 30px auto -20px;
   text-align: center;
 }
 
@@ -195,6 +204,7 @@ button:hover {
 .contact-us-button {
   width: 140px;
   height: 40px;
+  font-size: 16px;
 }
 
 .flex-direction-column {
@@ -202,7 +212,7 @@ button:hover {
   flex-direction: column;
 }
 
-.fontsize14 {
+.fontsize16 {
   font-size: 16px;
 }
 
@@ -225,9 +235,14 @@ h4 {
 .logo {
   font-family: "binary ITC std", sans-serif;
   font-weight: 500;
-  font-size: 50px;
+  font-size: 55px;
 }
 
 .logo-color {
   color: #0c4366;
+}
+
+.adjust-margin {
+  margin-top: -20px;
+  margin-bottom: 25px;
 }
