@@ -25,7 +25,7 @@ function isEven(number) {
 }
 
 function startsWithJ(string) {
-  if (string[0] === 'j') {
+  if (string[0] === 'J') {
     return true;
   } else {
     return false;
@@ -50,14 +50,14 @@ function isOldEnoughToDrive(person) {
 
 function isOldEnoughToDrinkAndDrive(person) {
   if (person.age >= 21 && person.age >= 16) {
-    return false;
+    return false + 'drinking and driving is illegal';
   } else {
     return false;
   }
 }
 
 function categorizeAcidity(ph) {
-  if (ph < 7) {
+  if (ph < 0 && ph < 7) {
     return 'acid';
   } else if (ph > 7 && ph < 14) {
     return 'base';
