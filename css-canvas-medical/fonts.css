@@ -1,0 +1,26 @@
+@font-face {
+  font-family: Avenir;
+  font-style: normal;
+  font-weight: 500;
+  src: url("avenir.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "Tiempos Headline";
+  font-style: normal;
+  font-weight: normal;
+  src: url("TiemposHeadline-Regular.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "Tiempos Headline";
+  font-style: italic;
+  font-weight: 300;
+  src: url("TiemposHeadline-LightItalic.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "Binary ITC Std";
+  src: url("//db.onlinewebfonts.com/t/01236efc229254849efb159099afebb3.eot");
+  src: url("//db.onlinewebfonts.com/t/01236efc229254849efb159099afebb3.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/01236efc229254849efb159099afebb3.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/01236efc229254849efb159099afebb3.woff") format("woff"), url("//db.onlinewebfonts.com/t/01236efc229254849efb159099afebb3.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/01236efc229254849efb159099afebb3.svg#Binary ITC Std") format("svg");
+}
