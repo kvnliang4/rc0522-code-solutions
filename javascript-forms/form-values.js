@@ -10,4 +10,5 @@ function preventDefault(event) {
     message: document.querySelector('#user-message').value
   };
   console.log(messageData);
+  formValues.reset();
 }
