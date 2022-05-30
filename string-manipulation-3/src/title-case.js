@@ -4,7 +4,17 @@ function titleCase(title) {
   var split = title.toLowerCase().split(' ');
   var final = [];
   var taboo = ['and', 'or', 'nor', 'but', 'a', 'an', 'the', 'as', 'as', 'at', 'by', 'for', 'in', 'of', 'on', 'per', 'to'];
-  for (var i = 0; i < split.length; i++) {
+  var secondSplit = split[0];
+  if (secondSplit === 'javascript') {
+    final.push('JavaScript');
+  } else if (secondSplit === 'javascript:') {
+    final.push('JavaScript:');
+  } else {
+    secondSplit = split[0].split('');
+    secondSplit.splice(0, 1, secondSplit[0].toUpperCase());
+    final.push(secondSplit.join(''));
+  }
+  for (var i = 1; i < split.length; i++) {
     for (var j = 0; j < taboo.length; j++) {
       if (split[i] !== taboo[j]) {
         var doesNotContain = true;
@@ -13,10 +23,7 @@ function titleCase(title) {
         break;
       }
     }
-    for (j = 0; j < split[i].length; j++) {
-      if (split[i - 1] === undefined) {
-        break;
-      }
+    for (j = 0; j < split[i - 1].length; j++) {
       var colonCheck = split[i - 1].split('');
       if (colonCheck[j] === ':') {
         var hasColon = true;
@@ -31,8 +38,8 @@ function titleCase(title) {
       final.push('JavaScript:');
     } else if (split[i] === 'api') {
       final.push('API');
-    } else if (doesNotContain === true || i === 0) {
-      var secondSplit = split[i].split('');
+    } else if (doesNotContain === true) {
+      secondSplit = split[i].split('');
       for (var k = 0; k < secondSplit.length; k++) {
         if (secondSplit[k - 1] === '-') {
           secondSplit.splice(k, 1, secondSplit[k].toUpperCase());
