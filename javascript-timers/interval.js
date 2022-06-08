@@ -6,7 +6,7 @@ function countdown() {
   if (count > 0) {
     countdownMessage.textContent = count--;
   } else {
-    clearInterval(setInterval(countdown, 1000));
+    clearInterval(3);
     countdownMessage.textContent = '~Earth Beeeelooowww Us~';
   }
 }
