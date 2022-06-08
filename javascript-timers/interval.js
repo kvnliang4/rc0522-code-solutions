@@ -1,6 +1,6 @@
 var countdownMessage = document.querySelector('.countdown-display');
 
-var count = 4;
+var count = 3;
 
 var interval = setInterval(countdown, 1000);
 
