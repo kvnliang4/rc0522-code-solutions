@@ -1,0 +1,63 @@
+* {
+  font-family: "Courier Prime", sans-serif;
+}
+
+span {
+  font-size: 50px;
+  width: 0.6em;
+}
+
+#container {
+  margin-top: 33%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.correct {
+  color: #18cd1b;
+}
+
+.incorrect {
+  color: red;
+  text-decoration: underline;
+}
+
+.current {
+  text-decoration: underline;
+}
+
+.row {
+  align-items: center;
+  margin-top: 200px;
+}
+
+.play-again {
+  border-radius: 5px;
+  border: none;
+  color: white;
+  background-color: #105f11;
+  height: 40px;
+  width: 200px;
+  font-size: 20px;
+  box-shadow: 0 3px 3px rgb(143 143 143);
+}
+
+button:hover {
+  cursor: pointer;
+  background-color: #18cd1b;
+}
+
+.hidden {
+  display: none;
+}
+
+.display {
+  display: flex;
+  flex-direction: column;
+}
+
+.score {
+  font-size: 20px;
+  margin-bottom: 30px;
+}
