@@ -2,9 +2,9 @@ const fs = require('fs');
 
 const text = process.argv[2];
 
-const readText = fs.readFileSync(text, 'utf8', (err, data) => {
-  if (err) throw err;
-  return data;
+fs.readFile(text, 'utf8', (err, data) => {
+  if (err) {
+    return;
+  }
+  console.log(data);
 });
-
-console.log(readText);
