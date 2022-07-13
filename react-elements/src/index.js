@@ -1,6 +1,6 @@
 import React from 'react';
 
-import * as ReactDOM from 'react-dom';
+import * as ReactDOM from 'react-dom/client';
 
 const hi = React.createElement(
   'h1',
