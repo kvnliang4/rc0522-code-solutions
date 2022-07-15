@@ -7,8 +7,7 @@ class RegistrationForm extends React.Component {
     this.handleUsernameChange = this.handleUsernameChange.bind(this);
     this.handlePasswordChange = this.handlePasswordChange.bind(this);
     this.handleSubmit = this.handleSubmit.bind(this);
-    this.state = { username: '' };
-    this.state = { password: '' };
+    this.state = { username: '', password: '' };
   }
 
   handleUsernameChange(event) {
