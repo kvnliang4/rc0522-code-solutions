@@ -16,34 +16,26 @@ export default class HotButton extends React.Component {
   render() {
     const timesClicked = this.state.clicks;
     const text = 'Hot Button';
+    let buttonClass = '';
+
     if (timesClicked < 3) {
-      return (
-        <button className='initial' onClick={this.handleClick}>{text}</button>
-      );
+      buttonClass = 'initial';
     } else if (timesClicked < 6) {
-      return (
-        <button className='click3' onClick={this.handleClick}>{text}</button>
-      );
+      buttonClass = 'click3';
     } else if (timesClicked < 9) {
-      return (
-        <button className='click6' onClick={this.handleClick}>{text}</button>
-      );
+      buttonClass = 'click6';
     } else if (timesClicked < 12) {
-      return (
-        <button className='click9' onClick={this.handleClick}>{text}</button>
-      );
+      buttonClass = 'click9';
     } else if (timesClicked < 15) {
-      return (
-        <button className='click12' onClick={this.handleClick}>{text}</button>
-      );
+      buttonClass = 'click12';
     } else if (timesClicked < 18) {
-      return (
-        <button className='click15' onClick={this.handleClick}>{text}</button>
-      );
+      buttonClass = 'click15';
     } else if (timesClicked >= 18) {
-      return (
-        <button className='click18' onClick={this.handleClick}>{text}</button>
-      );
+      buttonClass = 'click18';
     }
+
+    return (
+      <button className={buttonClass} onClick={this.handleClick}>{text}</button>
+    );
   }
 }
