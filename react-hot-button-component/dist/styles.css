@@ -1,0 +1,44 @@
+button {
+  width: 150px;
+  height: 75px;
+  border: 2px solid black;
+  border-radius: 1px;
+  box-shadow: 5px 5px black;
+  font-size: 20px;
+  color: black;
+  cursor: pointer;
+}
+
+.initial {
+  background-color: aqua;
+}
+
+.click3 {
+  background-color: #351c75;
+  color: white;
+}
+
+.click6 {
+  background-color: #674ea7;
+  color: white;
+}
+
+.click9 {
+  background-color: #e06666;
+  color: white;
+}
+
+.click12 {
+  background-color: #f6b26b;
+  color: black;
+}
+
+.click15 {
+  background-color: #ff0;
+  color: black;
+}
+
+.click18 {
+  background-color: white;
+  color: black;
+}
