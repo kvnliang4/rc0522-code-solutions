@@ -93,8 +93,7 @@ export default class App extends React.Component {
     })
       .then(response => response.json())
       .then(data => {
-        const updatedList = this.state.todos;
-        updatedList[index] = data;
+        const updatedList = this.state.todos.slice(index, 1, data);
         this.setState({
           todos: updatedList
         });
