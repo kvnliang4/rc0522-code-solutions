@@ -1,0 +1,19 @@
+1. User sign up
+  A post request is sent with the username and password provided by the user.
+  The password gets hashed and the database gets updated with
+  the new user's login details. The hash changes to #sign-in and the user is brought
+  back to the sign-in page.
+
+2. User sign in
+  A post request is sent with the username and password provided by the user.
+  The database checks if the username matches and if it does, the inputed password
+  is verified against the hashed password in the database. If that also matches, a token is generated
+  and saved to the local storage, and the user is signed in. The hash changes to #.
+
+3. User stays signed in
+  The user can stay signed in even if the page is refreshed because of the generated token
+  which checks the identity of the user.
+
+4. User can sign out
+  The token is deleted from the local storage when the user clicks the sign-out button.
+  The hash changes to #sign-in and the user is brought back to the sign in page.
